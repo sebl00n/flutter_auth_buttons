@@ -53,7 +53,7 @@ class StretchableButton extends StatelessWidget {
             borderRadius: BorderRadius.circular(borderRadius),
             side: bs,
           ),
-          child: RaisedButton(
+          child: MaterialButton(
             onPressed: onPressed,
             color: buttonColor,
             splashColor: splashColor,
